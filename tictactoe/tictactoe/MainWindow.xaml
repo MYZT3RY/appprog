@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tictactoe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="МОЯ ЛУЧШАЯ ПРОГРАММА" Height="233" Width="345" ResizeMode="NoResize">
     <Grid>
-        
+        <Label Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,9,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,9,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,9,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,9,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,9,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,44,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,44,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,44,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,44,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,44,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="11" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,79,0,0" Height="36" Width="40" Background="Red"/>
+        <Label Content="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,79,0,0" Height="36" Width="39" Background="Red"/>
+        <Label Content="13" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,79,0,0" Height="36" Width="40" Background="Red"/>
+        <Label Content="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,79,0,0" Height="36" Width="39" Background="Red"/>
+        <Label Content="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,79,0,0" Height="36" Width="40" Background="Red"/>
+        <Label Content="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,115,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="17" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,115,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,115,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,115,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,115,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="21" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,150,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="22" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,150,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,150,0,0" Height="35" Width="40" Background="Red"/>
+        <Label Content="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,150,0,0" Height="35" Width="39" Background="Red"/>
+        <Label Content="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,150,0,0" Height="35" Width="40" Background="Red"/>
+        <Button Content="Начать игру" HorizontalAlignment="Left" Margin="228,155,0,0" VerticalAlignment="Top" Width="85"/>
+
     </Grid>
 </Window>
