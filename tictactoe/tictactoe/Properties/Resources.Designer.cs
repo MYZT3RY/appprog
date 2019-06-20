@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace tictactoe.Properties
+namespace mycanvas.Properties
 {
 
 
