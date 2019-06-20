@@ -8,7 +8,6 @@ namespace _3rdSam{
     class Program{
         static void Main(string[] args){
             List<consignment> consignments = new List<consignment>();
-            var letters = new List<string> {"А","Б","В","Г","Д","Е","Ж","З","И","К"};
             bool isEnd = false;
             do{
                 Console.WriteLine("введите название партии");
@@ -34,14 +33,6 @@ namespace _3rdSam{
                     Console.WriteLine($"Количество {(iter.getBudgetary() ? "ассигнований" : "депутатов")} - {iter.getAmount()}\n");
                 }
             }
-            /*
-            for (int i = 0; i < consignments.Count(); i++){
-                if (consignments[i].nameOfConsignment.StartsWith("А")){
-                    Console.WriteLine($"Название партии {consignments[i].nameOfConsignment}");
-                    Console.WriteLine($"Бюджетная - {(consignments[i].getBudgetary() == true ? "Да" : "Нет")}");
-                    Console.WriteLine($"Количество {(consignments[i].getBudgetary() ? "ассигнований" : "депутатов")} - {consignments[i].getAmount()}\n");
-                }
-            }*/
             Console.ReadLine();
             consignments.Clear();
         }
